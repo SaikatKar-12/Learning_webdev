@@ -1,0 +1,21 @@
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+    background-image: url("mole-hill.png");
+    background-size:5cm;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.mole {
+	background-image: url("mole-head.png");
+	background-size: cover;
+}
