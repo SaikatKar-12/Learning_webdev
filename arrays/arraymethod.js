@@ -120,14 +120,14 @@ console.log(arr)
 **/
 
 //sorting
-/** 
-arr = [5,4,1,2,9,3]
+ 
+// arr = [5,4,1,2,9,3]
 
-arr.sort((a,b)=> b-a)
+// arr.sort((a,b)=> b-a)
 
-console.log(arr)
+// console.log(arr)
 
-**/
+
 
 /**
  arr = [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16]
