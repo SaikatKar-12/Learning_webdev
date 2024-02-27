@@ -2,7 +2,7 @@ const {Telegraf}=require('telegraf');
 const axios = require('axios')
 
 
-const bot = new Telegraf('6584476545:AAHQiDiYBvyUvj6OK7bWEFfOA7WcnpK2yKI');
+const bot = new Telegraf();
 bot.start((ctx)=> ctx.reply('Welcome to the new coding bot from saikat.'));
 bot.command('mergesort', async function (ctx) {
     const response = await axios.get('https://raw.githubusercontent.com/SaikatKar-12/CppCompetitive-/main/cCodes/mergesort.c');
