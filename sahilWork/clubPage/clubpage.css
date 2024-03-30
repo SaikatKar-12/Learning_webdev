@@ -1,6 +1,27 @@
+:root{
+    --color-primary: #6c63ff;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-varient: rgba(247, 88, 66, 0.4);
+    --color-white: #fff;
+    --color-light:rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+
+    --container-width-1g: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
 body{
     margin: 0;
     padding: 0;
+    color: var(--color-white);
+    background: var(--color-bg);
 }
 .card {
     min-height: 32vh;
@@ -14,7 +35,7 @@ body{
     align-items: center; */
     vertical-align: top;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #736cd9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     transition: .5s ease;
@@ -25,6 +46,7 @@ h1{
 }
 .card h2 {
     margin-top: 0;
+    color: #000;
 }
 
 .card p {
@@ -34,6 +56,7 @@ h1{
 .club-logo {
     max-width: 100px;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 
@@ -62,7 +85,7 @@ h1{
     transform: translateY(-5px);
     border-color: #0ef;
     transform: scale(1.02);
-    
+    color: #000;
 }
 .card:hover .join-button {
     background-color: #00adb3; /* Change button color on card hover */
